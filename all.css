@@ -142,7 +142,7 @@ img {
   display: inline-flex;
 }
 body {
-  background: url(https://hexschool.github.io/js-filter/assets/bg.jpg);
+  background: url(./img/background-img.jpg);
   background-size: cover;
   height: 100vh;
   font-family: "NotoSansCJKtc-Bold";
@@ -156,8 +156,7 @@ body {
 }
 .logo a {
   display: block;
-  background: url(https://firebasestorage.googleapis.com/v0/b/hexschool-courses.appspot.com/o/course%2FJS%20%E5%89%8D%E7%AB%AF%E4%BF%AE%E7%B7%B4%E5%85%A8%E6%94%BB%E7%95%A5%2F1628942714013-logo%20%E6%94%B9.png?alt=media&token=583e78ed-6a6c-4660-9f0e-2f59f8eb78e2)
-    no-repeat;
+  background: url(./img/logo.png) no-repeat;
   width: 450px;
   height: 105px;
   text-indent: 101%;
@@ -166,8 +165,7 @@ body {
 }
 @media (max-width: 767px) {
   .logo a {
-    background: url(https://firebasestorage.googleapis.com/v0/b/hexschool-courses.appspot.com/o/course%2FJS%20%E5%89%8D%E7%AB%AF%E4%BF%AE%E7%B7%B4%E5%85%A8%E6%94%BB%E7%95%A5%2F1629001163643-logo-sm.png?alt=media&token=914f40fc-c143-4aaa-a1c3-fb0bdd17fa9c)
-      no-repeat;
+    background: url(./img/logo-sm.png) no-repeat;
     width: 178px;
     height: 50px;
     margin: 1.25rem auto;
