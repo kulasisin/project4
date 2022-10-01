@@ -1,8 +1,8 @@
 let data = [];
 let matchData = [];
 let filterType = "all";
-const showList = document.querySelector(".showList");
-const btnGroup = document.querySelector(".button-group");
+const showList = document.querySelector(".listShow");
+const btnGroup = document.querySelector(".buttons");
 const btnType = document.querySelectorAll(".btn-type");
 const crop = document.getElementById("crop");
 const search = document.querySelector(".search");
@@ -85,7 +85,7 @@ function searchCrop() {
   });
   if (searchData.length == 0) {
     showList.innerHTML = `<tr>
-    <td colspan="6" class="text-center p-3">查詢不到交易資訊QQ</td>
+    <td colspan="6" class="text-center p-3">查無交易資訊</td>
     </tr>`;
   } else {
     renderData(searchData);
